@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ThingSpeak Data Display</title>
+</head>
+<body>
+    <div class="background-gradient">
+        <div id="data-container">
+            <h1>Real-time air quality data</h1>
+            <p>Temperature: <span id="temperature">Loading...</span>°C</p>
+            <p>Humidity: <span id="humidity">Loading...</span>%</p>
+        </div>
+        <div id="marquee">
+            <marquee behavior="scroll" direction="left">
+                Kill pollution, or it will kill you!
+            </marquee>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
